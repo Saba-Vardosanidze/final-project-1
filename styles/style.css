@@ -391,10 +391,11 @@ main {
   padding: 14px;
 }
 .three-box {
-  max-width: 1200px;
+  max-width: 1556px;
   padding: 64px 0px;
   margin: 0 auto;
   display: flex;
+  gap: 120px;
   justify-content: space-between;
   align-items: center;
 }
@@ -435,19 +436,15 @@ main {
   letter-spacing: 6%;
   text-align: center;
 }
-.three-div:not(:last-child) {
-  border-right: 1px solid rgba(179, 179, 179, 0.4);
-  padding-right: 50px;
-}
+
 .Sect-news {
   width: 100%;
   display: flex;
 }
 .main-latest {
+  max-width: 1556px;
   display: flex;
-  width: 1350px;
-  height: 1214px;
-
+  width: 100%;
   margin: 0 auto;
   flex-direction: column;
 }
@@ -467,20 +464,21 @@ main {
   letter-spacing: 6%;
 }
 .one-box img {
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
   height: 432px;
   border-radius: 22px;
 }
 .one-box {
   display: flex;
+  gap: 150px;
   justify-content: space-between;
 }
 .about-stories {
+  padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 650px;
-  height: 376px;
   gap: 24px;
 
   justify-content: center;
@@ -497,7 +495,6 @@ main {
 }
 .about-stories span {
   color: #6d6d6d;
-
   font-weight: 500;
   font-style: Medium;
   font-size: 20px;
