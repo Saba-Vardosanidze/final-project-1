@@ -126,6 +126,20 @@
     flex-wrap: wrap;
     gap: 60px;
   }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .client-one img {
+    top: -86px;
+    left: 120px;
+  }
+
+  .client-one {
+    padding: 104px 24px 64px 24px;
+  }
 }
 
 @media (max-width: 1279px) {
@@ -201,6 +215,18 @@
 
   .expl-maindiv {
     gap: 64px;
+  }
+
+  .our-clients {
+    font-size: 38px;
+  }
+
+  .Vacationers-info {
+    gap: 150px;
+  }
+
+  .prices-info h2 {
+    font-size: 24px;
   }
 }
 

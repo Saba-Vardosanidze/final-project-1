@@ -526,7 +526,8 @@ main {
   justify-content: center;
 }
 .expl-maindiv {
-  width: 1556px;
+  max-width: 1556px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 136px;
@@ -557,6 +558,7 @@ main {
 }
 .images-box {
   width: 100%;
+  padding: 0px 14px;
   display: flex;
   justify-content: center;
   gap: 116px;
@@ -565,12 +567,14 @@ main {
 }
 
 .images-box img {
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   height: 320px;
   border-radius: 24px;
 }
 .pictures {
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   position: relative;
 }
 .rate-box img {
@@ -583,7 +587,6 @@ main {
   height: 38px;
   background-color: white;
   box-shadow: 0px 4px 30px 6px #0000000d;
-
   position: absolute;
   z-index: 40;
   top: 15px;
@@ -593,7 +596,8 @@ main {
   justify-content: center;
 }
 .prices-info {
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   height: 80px;
   display: flex;
   flex-direction: column;
@@ -644,24 +648,23 @@ main {
 }
 .Reviews {
   width: 100%;
-  max-width: 1470px;
+  display: flex;
+  justify-content: center;
 }
 .Vacationers-info {
-  width: 1440px;
-  height: 500px;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 88px;
 }
 .about-us {
-  width: 1470px;
-  height: 200px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
-  margin: 0 auto;
+  padding: 0px 14px;
 }
 .our-clients {
   text-align: center;
@@ -681,11 +684,13 @@ main {
   border-radius: 100%;
   position: absolute;
   bottom: 53px;
+  left: 30px;
   transform: translate(-50%);
 }
 .client-one {
-  width: 627px;
-  height: 312px;
+  max-width: 627px;
+  width: 100%;
+  padding: 56px 56px 56px 170px;
   position: relative;
   align-items: center;
   display: flex;
@@ -731,6 +736,7 @@ main {
 footer {
   width: 100%;
   display: flex;
+  margin-top: 96px;
   justify-content: center;
   background-color: #18abc6;
   padding: 96px;
