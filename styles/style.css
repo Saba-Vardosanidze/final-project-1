@@ -522,11 +522,11 @@ main {
 }
 .explore-sect {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .expl-maindiv {
-  width: 1350px;
-  height: 1200px;
-  margin: 0 auto;
+  width: 1556px;
   display: flex;
   flex-direction: column;
   gap: 136px;
@@ -556,15 +556,14 @@ main {
   padding-top: 16px;
 }
 .images-box {
-  width: 1400px;
-  height: 985px;
-
-  margin: 0 auto;
+  width: 100%;
   display: flex;
-  gap: 40px;
+  justify-content: center;
+  gap: 116px;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .images-box img {
   width: 420px;
   height: 320px;

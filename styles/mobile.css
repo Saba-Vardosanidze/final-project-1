@@ -180,6 +180,28 @@
   .latest-wrap .New-fromus {
     font-size: 32px;
   }
+
+  .images-box {
+    gap: 64px;
+  }
+
+  .advent-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advent-box h2 {
+    font-size: 32px;
+  }
+  .advent-box p {
+    font-size: 16px;
+  }
+
+  .expl-maindiv {
+    gap: 64px;
+  }
 }
 
 @media (max-width: 767px) {
