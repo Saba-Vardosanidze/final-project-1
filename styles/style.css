@@ -546,6 +546,33 @@ main {
   letter-spacing: 6%;
   font-family: 'Poppins', sans-serif;
 }
+
+.burger-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 70px;
+  margin-top: 60px;
+}
+
+.burger-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.burger-icons-header {
+  display: flex;
+  gap: 27px;
+}
+
+.burger-join-btn {
+  width: 100%;
+  max-width: 200px;
+}
 .advent-box p {
   font-weight: 300;
   font-style: Light;
