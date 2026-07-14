@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Poppins-Bold";
-  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
 }
 html {
   scroll-behavior: smooth;
@@ -29,7 +29,7 @@ nav {
 .nav-list {
   display: flex;
   gap: 40px;
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
@@ -44,7 +44,7 @@ nav {
   color: black;
 }
 .header-list::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -95,7 +95,7 @@ nav {
   height: 52px;
 }
 .Go-travel {
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   font-weight: 600;
   font-size: 30px;
   leading-trim: NONE;
@@ -157,7 +157,7 @@ main {
   color: white;
   text-align: center;
   font-weight: 600;
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   font-size: 100px;
   leading-trim: NONE;
   line-height: 136px;
@@ -173,7 +173,7 @@ main {
   flex-direction: column;
 }
 .Memorable-div p {
-  font-family: "Poppins-Bold", sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 28px;
@@ -222,7 +222,7 @@ main {
   flex-direction: column;
 }
 .offers-wrap h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 28px;
@@ -232,7 +232,7 @@ main {
   color: #8d8d8d;
 }
 .offers-wrap p {
-  font-family: "Rubik-Light", sans-serif;
+  font-family: 'Rubik-Light', sans-serif;
   font-weight: 400;
   font-size: 16px;
   leading-trim: NONE;
@@ -244,78 +244,9 @@ main {
   width: 39px;
   height: 39px;
 }
-.Memoriable-section {
-  max-width: 1556px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.sect-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sect-wrap h2 {
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 52px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 6%;
-}
-.sect-wrap p {
-  font-weight: 300;
-  color: #7d7d7d;
-  font-size: 20px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 6%;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  padding-top: 20px;
-}
 
-.item {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-.step-badge {
-  width: 52px;
-  height: 36px;
-  border-radius: 8px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 600;
-  font-size: 22px;
-}
-.item h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: black;
-  font-size: 20px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 6%;
-}
-.item p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  leading-trim: NONE;
-  line-height: 20px;
-  letter-spacing: 6%;
-}
 .explore-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 224px;
   height: 52px;
   background-color: #18abc6;
@@ -327,12 +258,7 @@ main {
   justify-content: center;
   margin-top: 56px;
 }
-.contact-list {
-  width: 100%;
-  max-width: 1557px;
-  display: flex;
-  justify-content: space-between;
-}
+
 .left-sect img {
   max-width: 500px;
   width: 100%;
@@ -372,7 +298,7 @@ main {
 }
 .reace-div h4 {
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #151515;
   font-size: 15px;
   leading-trim: NONE;
@@ -433,7 +359,7 @@ main {
 }
 .left-posit h4 {
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #151515;
   font-size: 15px;
   leading-trim: NONE;
@@ -464,16 +390,16 @@ main {
   background-color: #eff9fb;
 }
 .three-box {
-  width: 1200px;
-  height: 500px;
-
+  max-width: 1200px;
+  padding: 64px 0px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .three-div {
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
   height: 360px;
   position: relative;
   display: flex;
@@ -495,10 +421,10 @@ main {
   line-height: 100%;
   letter-spacing: 6%;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .boxs-wrap p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 38px;
   font-weight: 400;
   color: #6d6d6dd9;
@@ -533,7 +459,7 @@ main {
   margin: 0 auto;
   color: black;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 52px;
   leading-trim: NONE;
   line-height: 100%;
@@ -619,7 +545,7 @@ main {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 6%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .advent-box p {
   font-weight: 300;
@@ -680,7 +606,7 @@ main {
   padding-top: 32px;
 }
 .prices-info h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   color: black;
   font-size: 28px;
@@ -701,7 +627,7 @@ main {
 }
 .location-box p {
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   leading-trim: NONE;
   line-height: 28px;
@@ -717,7 +643,7 @@ main {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-  font-family: "Rubik-Light", sans-serif;
+  font-family: 'Rubik-Light', sans-serif;
 }
 .Reviews {
   width: 100%;
@@ -749,7 +675,7 @@ main {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 93px;
   /* margin-bottom: 70px; */
 }
@@ -847,7 +773,7 @@ footer {
 .wrap-info h2 {
   color: white;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   leading-trim: NONE;
   line-height: 100%;
@@ -855,7 +781,7 @@ footer {
 }
 .wrap-info p {
   color: #ffffe7;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: Light;
   font-size: 16px;
@@ -893,7 +819,7 @@ footer {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .four-footerr h2 {
   margin-bottom: 20px;
@@ -903,7 +829,7 @@ footer {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .four-footerr h4 {
   color: #ffffffcc;
@@ -912,7 +838,7 @@ footer {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-left: 8px;
 }
 .four-footerr ul li {
@@ -922,7 +848,7 @@ footer {
 }
 .four-footerr a {
   color: #ffffffcc;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
@@ -935,7 +861,7 @@ footer {
 }
 .four-footer a {
   color: #ffffffcc;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
