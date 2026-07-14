@@ -388,6 +388,7 @@ main {
 .sect-benefits {
   width: 100%;
   background-color: #eff9fb;
+  padding: 14px;
 }
 .three-box {
   max-width: 1200px;
@@ -400,7 +401,7 @@ main {
 .three-div {
   max-width: 360px;
   width: 100%;
-  height: 360px;
+  gap: 50px;
   position: relative;
   display: flex;
   align-items: center;
@@ -733,17 +734,16 @@ main {
 }
 footer {
   width: 100%;
-  height: 300px;
   display: flex;
+  justify-content: center;
   background-color: #18abc6;
+  padding: 96px;
 }
 .footer-maindiv {
   width: 100%;
   max-width: 1440px;
-  height: 300px;
   display: flex;
   background-color: #18abc6;
-  margin: 0 auto;
   align-items: center;
   gap: 150px;
 }
@@ -753,20 +753,18 @@ footer {
   border-radius: 7px;
 }
 .left-footer {
-  width: 465px;
-  height: 240px;
+  max-width: 465px;
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: start;
 }
 .img-info {
   display: flex;
-  align-items: center;
 }
 .wrap-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 75px;
   gap: 20px;
   margin-left: 16px;
 }
@@ -798,9 +796,8 @@ footer {
   height: 42px;
 }
 .right-footer {
-  width: 975px;
-  height: 176px;
   display: flex;
+  gap: 100px;
   justify-content: space-between;
 }
 .four-footer {

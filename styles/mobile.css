@@ -91,6 +91,33 @@
 
   .three-div:not(:last-child) {
     border: none;
+    padding-right: 0px;
+  }
+
+  footer {
+    padding: 96px 14px;
+  }
+
+  .footer-maindiv {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 60px;
+  }
+
+  .img-info {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .left-footer {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .right-footer {
+    flex-wrap: wrap;
+    gap: 60px;
   }
 }
 
